@@ -1,0 +1,31 @@
+{
+  "full": {
+    "metadata": [
+      "https://dl.fbaipublicfiles.com/cop3d/metadata_000.zip"
+    ],
+    "cat": [
+      "https://dl.fbaipublicfiles.com/cop3d/cat_000.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_001.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_002.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_003.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_004.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_005.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_006.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/cat_007.zip"
+    ],
+    "dog": [
+      "https://dl.fbaipublicfiles.com/cop3d/dog_000.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_001.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_002.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_003.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_004.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_005.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_006.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_007.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_008.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_009.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_010.zip",
+      "https://dl.fbaipublicfiles.com/cop3d/dog_011.zip"
+    ]
+  }
+}
