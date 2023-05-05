@@ -1,3 +1,8 @@
+<center>
+<img src="./assets/cop3d-logo.png" width="512" />
+</center>
+<br>
+
 # COP3D: Common Pets in 3D
 
 **[[project]](https://cop3d.github.io/)** | **[[paper]](https://arxiv.org/abs/2211.03889)**
@@ -32,8 +37,10 @@ Run `python ./cop3d/download_dataset.py -h` for the full list of options.
 
 Make sure the setup is done and the dataset is downloaded as per above.
 
-There are multiple ways to access the dataset. We recommend using PyTorch3D (v0.7.4+) data loaders.
-As a basic example, use the following code to create a dataset object with filters on category and subset (in this case, training set of dogs):
+There are multiple ways to access the dataset. We recommend using PyTorch3D data loaders.
+In particular, the example below uses `SqlIndexDataset` class, which will be released in PyTorch3D v0.7.4.
+Until that happened, you can either build PyTorch3D from github source or use the legacy JSON format (see below).
+As a basic example, the following code creates a dataset object with filters on category and subset (in this case, training set of dogs for the manyview protocol):
 
 ```python
 SUBSET_NAME = "manyview"  # OR "fewview_dev" OR "fewview_train"
@@ -138,7 +145,7 @@ For more information on this format, see [CO3D documentation](https://github.com
 ## Reference
 If you use our dataset, please cite the paper:
 ```
-@article{sinha2022common,
+@article{sinha2023common,
   title={Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories},
   author={Sinha, Samarth and Shapovalov, Roman and Reizenstein, Jeremy and Rocco, Ignacio and Neverova, Natalia and Vedaldi, Andrea and Novotny, David},
   journal={CVPR},
