@@ -38,8 +38,7 @@ Run `python ./cop3d/download_dataset.py -h` for the full list of options.
 Make sure the setup is done and the dataset is downloaded as per above.
 
 There are multiple ways to access the dataset. We recommend using PyTorch3D data loaders.
-In particular, the example below uses `SqlIndexDataset` class, which will be released in PyTorch3D v0.7.4.
-Until that happened, you can either build PyTorch3D from github source or use the legacy JSON format (see below).
+In particular, the example below uses `SqlIndexDataset` class available in PyTorch3D v0.7.4 or newer.
 As a basic example, the following code creates a dataset object with filters on category and subset (in this case, training set of dogs for the manyview protocol):
 
 ```python
